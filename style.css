@@ -1,0 +1,52 @@
+*{
+    color: aqua;
+}
+
+#box{
+    background-color: blue;
+    opacity: 0.1;
+}
+
+h1{
+    color: blue;
+}
+
+P{
+    color: chocolate;
+}
+
+button{
+    color: blueviolet;
+    background: palegoldenrod;
+}
+#monday{
+    color: blueviolet;
+}
+#tuesday{
+    color: blue;
+}
+/*#wednesday{*/
+/*    color: aquamarine;*/
+/*}*/
+/*#thursday{*/
+/*    color: black;*/
+/*}*/
+
+.cse{
+    color: brown;
+}
+.heading{
+    color: red;
+}
+
+/*h1,h2,h3{*/
+/*    color: red;*/
+/*}*/
+
+/*#button{*/
+/*    background: green;*/
+/*}*/
+
+/*button{*/
+/*    background: green;*/
+/*}*/
