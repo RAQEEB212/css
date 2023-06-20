@@ -1,15 +1,135 @@
-*{
-    color: aqua;
+/**{*/
+/*    color: aqua;*/
+/*}*/
+
+#navbar{
+    font-size: 25px;
+}
+#traffic{
+    text-transform: capitalize;
+    color: white;
+    background-color: black;
+    height: 370px;
+    width: 120px;
+    text-align: center;
+    border-radius: 35px;
+}
+#red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
+
+#div100{
+    background-color: green ;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    border-style: dotted;
+    margin: 30px;
+    
+}
+
+#level2boxmodel{
+    background-color: aqua;
+    height: 90px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    /*border-radius: 50%;*/
+    border-color: black;
+    margin: 10px;
+    border-width: 10px;
+    border-style: dotted;
+    text-align: center;
+
+}
+#boxtext{
+    margin: 2px;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+
+#test2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+}
+
+
+
+#one{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+#two{
+    font-family: "Arial Black", serif;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: capitalize;
+}
 #box{
     background-color: blue;
-    opacity: 0.1;
+    opacity: 1;
+    text-align: end;
+    text-decoration: underline;
 }
 
 h1{
     color: blue;
+    text-align: center;
+    text-decoration: black wavy overline;
+    font-weight: 100;
 }
+h2{
+    color: green;
+    text-align: left;
+    text-decoration: red line-through;
+    font-weight: 900;
+}
+h3{
+    color: aqua;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+
 
 P{
     color: chocolate;
@@ -35,9 +155,7 @@ button{
 .cse{
     color: brown;
 }
-.heading{
-    color: red;
-}
+
 
 /*h1,h2,h3{*/
 /*    color: red;*/
