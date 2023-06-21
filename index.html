@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=0.1" name="viewport">
@@ -15,16 +15,16 @@
 </head>
 <body>
 
-<div id="header" class="layout">
-    <header>
-        <div id="navbar" >
-            <ul>
-                <a href="#">Amazon.io</a>
-                <a href="#">Account</a>
-                <a href="#">Cart</a>
-                <a href="#">Contact</a>
-                <input placeholder="Search">
-                <button>submit</button>
+<div>
+    <header id="navbar" class="layout">
+        <div >
+            <ul >
+                <li> <a href="#">Amazon.io</a></li>
+                <li><a href="#">Account</a></li>
+               <li> <a href="#">Cart</a></li>
+                <li> <a href="#">Contact</a></li>
+                <li> <input placeholder="Search"></li>
+                <li>   <button>submit</button></li>
 
             </ul>
         </div>
@@ -32,17 +32,38 @@
 </div>
 <div id="maincontent" class="layout">
     <main>
-        <div class="rows">
-            <div class="column">column 1</div>
+
+
+        <div>
+<!--        <div>-->
+<!--            <div class="rows">-->
+<!--                <div class="column">column 1</div>-->
+<!--            </div>-->
+<!--            <div class="column">-->
+<!--                column 2-->
+<!--            </div>-->
+<!--            <div class="column">-->
+<!--                column 3-->
+<!--            </div>-->
+<!--            <div class="column">-->
+<!--                column 4-->
+<!--            </div>-->
+<!--        </div>-->
         </div>
-        <div class="column">
-            column 2
-        </div>
-        <div class="column">
-            column 3
-        </div>
-        <div class="column">
-            column 4
+
+
+        <div id="flexcontainer" >
+
+            <div id="box1" >box1
+
+            </div>
+
+            <div id="box2">
+                <div id="box2-2">box 2.2</div>
+            </div>
+            <div id="box3">box3</div>
+            <div id="box4">box4</div>
+            <div id="box5">box5</div>
         </div>
     </main>
 </div>
@@ -54,6 +75,18 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div id="gridcontainer">
+    <div class="griditem">box1</div>
+    <div class="griditem">box2</div>
+    <div class="griditem">box3</div>
+    <div class="griditem">box4</div>
+    <div class="griditem">box5</div>
+</div>
+
+
+
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
