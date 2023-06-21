@@ -2,10 +2,98 @@
 /*    color: aqua;*/
 /*}*/
 
-#navbar{
+.column{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+#maincontent{
+    overflow: scroll;
+}
+
+/*@media screen and  (max-width: 600px){*/
+/*    body{*/
+/*        color: red;*/
+/*    }*/
+/*}*/
+/*@media   screen and  (orientation: landscape) and (max-width: 500px) {*/
+/*    body{*/
+/*        color: #0315f9;*/
+/*    }*/
+
+  
+/*@media  screen and (max-width: 600px),screen and (orientation: landscape) {*/
+/*    body{*/
+/*        color: #e22bae;*/
+/*    }*/
+
+/*}*/
+
+/*@media not screen and (orientation: landscape) {*/
+/*    body{*/
+/*        color: blue;*/
+/*    }*/
+
+/*}*/
+
+@media screen and (max-width: 600px) {
+    div{
+        background-color: red;
+    }
+
+}
+
+
+.layout{
+    border-radius: 10px;
+    border-style: solid;
+}
+#header{
+    height: 60px;
+    width: 100%;
     font-size: 25px;
+    background-color: rgba(255,0,0,0.5);
+    overflow: scroll;
+    padding-bottom: 20px;
+
+    /*text-align: center;*/
+    /*word-spacing: 40px;*/
+    padding-top: 5px;
+    padding-left: 2px;
+}
+#maincontent{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    background-color: rgba(5,100,50,0.5);
+}
+#footer{
+    font-size: 25px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(1.2, 133, 38, 0.5);
+    padding-bottom: 20px;
+
+
+}
+
+#inline{
+    display: inline;
+}
+
+#navbar{
+
+}
+a{
+    /*margin-left: 25px;*/
+    margin-right: 50px;
 }
 #traffic{
+    margin-top: 20px;
+    margin-left: 200px;
     text-transform: capitalize;
     color: white;
     background-color: black;
@@ -23,6 +111,7 @@
     border-radius: 50px;
     margin-left: 10px;
     margin-top: 10px;
+    /*display: none;*/
 }
 #green{
     background-color: green;
