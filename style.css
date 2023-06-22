@@ -79,7 +79,11 @@ li{
 
 
 
+.fa-solid{
+   padding-top: 20px;
+    font-size: 50px;
 
+}
 
 
 #box1{
@@ -87,6 +91,7 @@ li{
     background-color: aquamarine;
     align-self: flex-end;
     flex-shrink: 2;
+
 }
 #box2{
     width: 15%;
